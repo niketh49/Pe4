@@ -40,14 +40,17 @@ void Board::DisplayBoard(){
     cout << board_[2][0] << "|" << board_[2][1] << "|" << board_[2][2] <<'\n';
 }
 
+
+void Board::PlaceMarker(int marker){
+    board_[x_][y_] = marker;
+}
+
 void Board::GetPlayerChoice(){
     cout << "Enter location for x coordinate (0-2)" << '\n';
     cin >> x_;
     cout << "Enter location for y coordinate (0-2)" << '\n';
     cin >> y_;
 }
-
-
 
 
 int main() {
@@ -76,5 +79,4 @@ int main() {
             curr_player = &p2;
         }
     }
-
 }
