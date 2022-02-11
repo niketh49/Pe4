@@ -40,6 +40,15 @@ void Board::DisplayBoard(){
     cout << board_[2][0] << "|" << board_[2][1] << "|" << board_[2][2] <<'\n';
 }
 
+void Board::GetPlayerChoice(){
+    cout << "Enter location for x coordinate (0-2)" << '\n';
+    cin >> x_;
+    cout << "Enter location for y coordinate (0-2)" << '\n';
+    cin >> y_;
+}
+
+
+
 
 int main() {
     Board *b = new Board();
@@ -52,4 +61,20 @@ int main() {
     p2.marker = 2;
 
     b->DisplayBoard();
+
+    Player *curr_player = &p1;
+
+    for (int i = 0; i < 9; i++)
+    {
+        b->GetPlayerChoice();
+        b->PlaceMarker(curr_player->marker);
+        b->DisplayBoard();
+        if (curr_player == &p2)
+        {
+            curr_player = &p1;
+        } else {
+            curr_player = &p2;
+        }
+    }
+
 }
