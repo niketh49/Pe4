@@ -1,0 +1,94 @@
+(base) mandukhai@Mandukhais-MacBook-Air Pe4 % g++ TicTacToe.cpp
+(base) mandukhai@Mandukhais-MacBook-Air Pe4 % ./a.out          
+Loading. 
+Loading.. 
+Loading.. 
+Loading... 
+Displaying board
+0|0|0
+0|0|0
+0|0|0
+Enter location for x coordinate (0-2)
+1
+Enter location for y coordinate (0-2)
+1
+Loading. 
+Loading.. 
+Loading.. 
+Loading... 
+Displaying board
+0|0|0
+0|1|0
+0|0|0
+Enter location for x coordinate (0-2)
+0
+Enter location for y coordinate (0-2)
+0
+Loading. 
+Loading.. 
+Loading.. 
+Loading... 
+Displaying board
+2|0|0
+0|1|0
+0|0|0
+Enter location for x coordinate (0-2)
+0
+Enter location for y coordinate (0-2)
+2
+Loading. 
+Loading.. 
+Loading.. 
+Loading... 
+Displaying board
+2|0|1
+0|1|0
+0|0|0
+Enter location for x coordinate (0-2)
+2
+Enter location for y coordinate (0-2)
+0
+Loading. 
+Loading.. 
+Loading.. 
+Loading... 
+Displaying board
+2|0|1
+0|1|0
+2|0|0
+Enter location for x coordinate (0-2)
+1
+Enter location for y coordinate (0-2)
+2
+Loading. 
+Loading.. 
+Loading.. 
+Loading... 
+Displaying board
+2|0|1
+0|1|1
+2|0|0
+Enter location for x coordinate (0-2)
+2
+Enter location for y coordinate (0-2)
+0
+Loading. 
+Loading.. 
+Loading.. 
+Loading... 
+Displaying board
+2|0|1
+0|1|1
+2|0|0
+Enter location for x coordinate (0-2)
+2
+Enter location for y coordinate (0-2)
+2
+Loading. 
+Loading.. 
+Loading.. 
+Loading... 
+Displaying board
+2|0|1
+0|1|1
+2|0|1
