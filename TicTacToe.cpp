@@ -29,6 +29,18 @@ Board::Board(){
     }
 }
 
+void Board::DisplayBoard(){
+    cout << "Loading. " << endl;
+    cout << "Loading.. " << endl;
+    cout << "Loading.. " << endl;
+    cout << "Loading... " << endl;
+    cout << "Displaying board" << endl;
+    cout << board_[0][0] << "|" << board_[0][1] << "|" << board_[0][2] <<'\n';
+    cout << board_[1][0] << "|" << board_[1][1] << "|" << board_[1][2] <<'\n';
+    cout << board_[2][0] << "|" << board_[2][1] << "|" << board_[2][2] <<'\n';
+}
+
+
 int main() {
     Board *b = new Board();
     Player p1;
